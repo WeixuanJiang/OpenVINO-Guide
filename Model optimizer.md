@@ -20,7 +20,9 @@
    
    --transformations_config <PATH>/intel/openvino_2021.1.110/deployment_tools/model_optimizer/extensions/front/tf/ssd_v2_support.json
    
-   --data_type FP32
+   --data_type FP32   # change optimized model data format
+   
+   --input_shape [1,3,100,100]   # change model input shape  [batch size, channels, weight, height]
 
 
 # ONNX model
