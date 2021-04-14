@@ -47,4 +47,5 @@ Documentation for custom layer
 https://docs.openvinotoolkit.org/2019_R3/_docs_MO_DG_prepare_model_customize_model_optimizer_Customize_Model_Optimizer.html
 
 OpenVINO pretrained models
+
 https://docs.openvinotoolkit.org/2019_R1/_docs_Pre_Trained_Models.html
