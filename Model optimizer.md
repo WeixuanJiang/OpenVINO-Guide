@@ -12,6 +12,7 @@
 2. Run model optimizer command
 
    python <PATH>/intel/openvino_2021.1.110/deployment_tools/model_optimizer/mo.py 
+   
    --input_model frozen_inference_graph.pb 
    
    --tensorflow_object_detection_api-pipeline_config pipeline.config 
