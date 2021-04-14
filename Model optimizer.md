@@ -8,8 +8,7 @@
    cd ssd_mobilenet_v2_coco_2018_03_29 
    
    you will need the frozen_inference_graph.pb file and pipeline.config file
-
-
+   
 2. Run model optimizer command
 
    python <PATH>/intel/openvino_2021.1.110/deployment_tools/model_optimizer/mo.py 
