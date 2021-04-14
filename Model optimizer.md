@@ -14,9 +14,13 @@
 
    python <PATH>/intel/openvino_2021.1.110/deployment_tools/model_optimizer/mo.py 
    --input_model frozen_inference_graph.pb 
+   
    --tensorflow_object_detection_api-pipeline_config pipeline.config 
+   
    --reverse_input_channels 
+   
    --transformations_config <PATH>/intel/openvino_2021.1.110/deployment_tools/model_optimizer/extensions/front/tf/ssd_v2_support.json
+   
    --data_type FP32
 
 
