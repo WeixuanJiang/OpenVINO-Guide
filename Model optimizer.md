@@ -23,6 +23,14 @@
    --data_type FP32   # change optimized model data format
    
    --input_shape [1,3,100,100]   # change model input shape  [batch size, channels, weight, height]
+   
+   --input pool1  # select the model first layer
+   
+   --output pool10 # to cut off the layer of model as last layer
+   
+   --scale 10 # scale values for all layers
+   
+   --disable_fusing # disable model-optimizer to do fusing
 
 
 # ONNX model
@@ -38,7 +46,11 @@
 
 2. Run model optimizer command
 
-   python <PATH>/intel/openvino_2021.1.110/deployment_tools/model_optimizer/mo.py --input_model model.onnx --data_type FP32
+   python <PATH>/intel/openvino_2021.1.110/deployment_tools/model_optimizer/mo.py 
+   
+   --input_model model.onnx 
+   
+   --data_type FP32
    
 Documentation for model optimizer:
 
