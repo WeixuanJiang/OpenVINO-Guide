@@ -35,17 +35,21 @@
    python <PATH>/intel/openvino_2021.1.110/deployment_tools/model_optimizer/mo.py --input_model model.onnx
    
 Documentation for model optimizer:
+
 https://docs.openvinotoolkit.org/2019_R3/_docs_MO_DG_prepare_model_convert_model_Converting_Model.html
 
-Documentation for cutting of parts of model
+Documentation for cutting of parts of model:
+
 https://docs.openvinotoolkit.org/2019_R3/_docs_MO_DG_prepare_model_convert_model_Cutting_Model.html
 
-Documentation for support layer
+Documentation for support layer:
+
 https://docs.openvinotoolkit.org/2019_R3/_docs_MO_DG_prepare_model_Supported_Frameworks_Layers.html
 
-Documentation for custom layer
+Documentation for custom layer:
+
 https://docs.openvinotoolkit.org/2019_R3/_docs_MO_DG_prepare_model_customize_model_optimizer_Customize_Model_Optimizer.html
 
-OpenVINO pretrained models
+OpenVINO pretrained models:
 
 https://docs.openvinotoolkit.org/2019_R1/_docs_Pre_Trained_Models.html
